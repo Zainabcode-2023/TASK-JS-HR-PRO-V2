@@ -26,7 +26,25 @@ constructor (name, position, yearJoined, salary, bonusPercentage){
     super(Employee);
     bonusPercentage = "0.14";
 
+    const salaryIncrease = new salaryIncrease(increaseAmount);
+    increaseAmount= 0;
+    increaseAmount++ ;
+
 }
+
+// const employeesJSON = require('./employees.json');
+//const managersJSON = require('./managers.json');
+// Create instances of the Employee class using `map` and store them into a variable called `employees` using `employeesJSON`.
+
+employeesJSON = employees.map(employee1) => employee1.employeesJSON;
+managersJSON = managers.map(manager1) => manager1.managersJSON;
+
+// to create a method:
+
+const logManagerInfo = new logManagerInfo();
+name= "Zainab";
+   since =  "workingYears";
+   Bonus = Manager.bonusPercentage/bonusPercentage;
 
 
 }
